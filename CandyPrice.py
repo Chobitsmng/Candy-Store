@@ -1,9 +1,9 @@
-# Leslie A Borst
+# Leslie A. Borst
 # 9/17/17
 # Price of Candy Purchase
-# Finding the total price of the candy to be purchased by a customer
+# Finding the total price of the candy to be purchased by a customer.
 
-# Declair variables
+# Declare variables
 
 CandyName = str()
 WeightLb = int()
@@ -12,7 +12,7 @@ TotalPrice = float()
 UnitPrice = float()
 PricePerLb = float()
 
-# Get inputs from the user
+# Get inputs from the user.
 
 CandyName = str(input('Enter the candy name:'))
 
@@ -22,12 +22,12 @@ WeightLb = int(input('Enter number of pounds:'))
 
 WeightOz = int(input('Enter number of ounces:'))
 
-# Claculate the formulas with user inputs
+# Calcualte the formulas with user inputs.
 
 UnitPrice = PricePerLb / 16
 TotalPrice = PricePerLb*(WeightLb + WeightOz / 16)
 
-# Display candy name input and formula results
+# Display candy name input and formula results.
 
 print('Name of Item:', CandyName)
 print('Unit Price: $', UnitPrice)
