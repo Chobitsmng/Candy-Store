@@ -22,7 +22,7 @@ WeightLb = int(input('Enter number of pounds:'))
 
 WeightOz = int(input('Enter number of ounces:'))
 
-# Calcualte the formulas with user inputs.
+# Calculate the formulas with user inputs.
 
 UnitPrice = PricePerLb / 16
 TotalPrice = PricePerLb*(WeightLb + WeightOz / 16)
